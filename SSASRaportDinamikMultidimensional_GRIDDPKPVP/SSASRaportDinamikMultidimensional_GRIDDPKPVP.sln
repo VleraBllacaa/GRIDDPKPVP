@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1321
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSASRaportDinamikMultidimensional_GRIDDPKPVP", "SSASRaportDinamikMultidimensional_GRIDDPKPVP\SSASRaportDinamikMultidimensional_GRIDDPKPVP.dwproj", "{58E29EC5-FA21-4387-865E-7F2D9F2A45C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58E29EC5-FA21-4387-865E-7F2D9F2A45C3}.Development|Default.ActiveCfg = Development
+		{58E29EC5-FA21-4387-865E-7F2D9F2A45C3}.Development|Default.Build.0 = Development
+		{58E29EC5-FA21-4387-865E-7F2D9F2A45C3}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6D726CD-3AA5-4337-BC73-33E84C372D4D}
+	EndGlobalSection
+EndGlobal

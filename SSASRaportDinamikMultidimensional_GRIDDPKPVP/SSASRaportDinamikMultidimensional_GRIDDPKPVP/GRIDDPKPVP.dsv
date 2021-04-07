@@ -1,0 +1,122 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5ea0547f-4d49-4601-b44b-eaf4ce68c7fa" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>GRIDDPKPVP</ID>
+  <Name>GRIDDPKPVP</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>GRIDDPKPVP</DataSourceID>
+  <Schema>
+    <xs:schema id="GRIDDPKPVP" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="GRIDDPKPVP" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="1864bf62-201e-4e0e-b9fe-1cdefe8fedef">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_griddpkpvp_punetoret" msprop:design-time-name="16d56ae4-15dc-492f-991b-4cbdbe602e3b" msprop:DbTableName="griddpkpvp_punetoret" msprop:FriendlyName="griddpkpvp_punetoret" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Punetori" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="b3bfbd97-7338-4fba-86eb-3ad8674de1a2" msprop:DbColumnName="ID_Punetori" msprop:FriendlyName="ID_Punetori" type="xs:int" />
+                  <xs:element name="Emri" msprop:design-time-name="92e1a7b9-de8f-4b60-8476-f1be0a59c297" msprop:DbColumnName="Emri" msprop:FriendlyName="Emri">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Mbiemri" msprop:design-time-name="55534520-d985-4361-b21b-c786072f29c0" msprop:DbColumnName="Mbiemri" msprop:FriendlyName="Mbiemri">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Datelindja" msprop:design-time-name="f243435c-6321-47f7-b175-1fb798707f36" msprop:DbColumnName="Datelindja" msprop:FriendlyName="Datelindja" type="xs:dateTime" />
+                  <xs:element name="Adresa" msprop:design-time-name="45cbd808-d6ab-44f8-b2be-9b6c1182318b" msprop:DbColumnName="Adresa" msprop:FriendlyName="Adresa" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Gjinia" msprop:design-time-name="67c7a14d-ccc3-433b-9762-fda4831b9142" msprop:DbColumnName="Gjinia" msprop:FriendlyName="Gjinia">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_griddpkpvp_RegjistratHyrjeveDaljeve" msprop:design-time-name="6abb7b7d-b6f0-43b6-b7fc-94042c93cebd" msprop:DbTableName="griddpkpvp_RegjistratHyrjeveDaljeve" msprop:FriendlyName="griddpkpvp_RegjistratHyrjeveDaljeve" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_RegjistriHyrjesDaljes" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="23de4205-2dc7-4eb3-90b4-c131eea994a0" msprop:DbColumnName="ID_RegjistriHyrjesDaljes" msprop:FriendlyName="ID_RegjistriHyrjesDaljes" type="xs:int" />
+                  <xs:element name="Statusi" msprop:design-time-name="c94085e4-2e35-40cb-9e54-bc5cc10071b5" msprop:DbColumnName="Statusi" msprop:FriendlyName="Statusi">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Ora" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="ec4c3d4b-08a6-4bcb-8f98-8fd6a1aae49e" msprop:DbColumnName="Ora" msprop:FriendlyName="Ora" type="xs:anyType" />
+                  <xs:element name="Data_e_Krijimit" msprop:design-time-name="035e15dc-ce29-43d6-98a2-8ff1e3488baa" msprop:DbColumnName="Data_e_Krijimit" msprop:FriendlyName="Data_e_Krijimit" type="xs:dateTime" />
+                  <xs:element name="OraFilluese" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="d0380539-4af1-48c8-abf7-c7d045ea9c24" msprop:DbColumnName="OraFilluese" msprop:FriendlyName="OraFilluese" type="xs:anyType" />
+                  <xs:element name="OraMbaruese" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="c3fccc1a-05e7-4644-a8cb-a6cbed6e33ea" msprop:DbColumnName="OraMbaruese" msprop:FriendlyName="OraMbaruese" type="xs:anyType" />
+                  <xs:element name="MinutatEMbetur" msdata:ReadOnly="true" msprop:design-time-name="ef064ba5-7b29-4d38-8142-ed089267bece" msprop:DbColumnName="MinutatEMbetur" msprop:FriendlyName="MinutatEMbetur" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_Punetori" msprop:design-time-name="fa474e2f-55d9-42be-ac66-95fc9ea9fab9" msprop:DbColumnName="ID_Punetori" msprop:FriendlyName="ID_Punetori" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_griddpkpvp_punetoret" />
+          <xs:field xpath="ID_Punetori" />
+        </xs:unique>
+        <xs:unique name="dbo_griddpkpvp_RegjistratHyrjeveDaljeve_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_griddpkpvp_RegjistratHyrjeveDaljeve" />
+          <xs:field xpath="ID_RegjistriHyrjesDaljes" />
+        </xs:unique>
+        <xs:keyref name="FK__pkpvp_Reg__ID_Pu__6FE99F9F" refer="Constraint1">
+          <xs:selector xpath=".//dbo_griddpkpvp_RegjistratHyrjeveDaljeve" />
+          <xs:field xpath="ID_Punetori" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <GRIDDPKPVP xmlns="" />
+  </Schema>
+</DataSourceView>
